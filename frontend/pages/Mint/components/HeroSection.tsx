@@ -65,7 +65,7 @@ export const HeroSection: React.FC<HeroSectionProps> = () => {
         <Card>
           <CardContent
             fullPadding
-            className="flex flex-col md:flex-row gap-4 md:justify-between items-start md:items-center flex-wrap text-black outline-none border-none bg-[#33f3c3]"
+            className="flex flex-col md:flex-row gap-4 md:justify-between items-start md:items-center flex-wrap text-black outline-none border-none bg-[#dbdbdb]"
           >
             <form onSubmit={mintNft} className="flex flex-col md:flex-row gap-4 w-full md:basis-1/4">
               <Input
